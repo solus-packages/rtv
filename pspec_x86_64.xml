@@ -1,0 +1,99 @@
+<PISI>
+    <Source>
+        <Name>rtv</Name>
+        <Packager>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Packager>
+        <License>MIT</License>
+        <PartOf>network.news</PartOf>
+        <Summary xml:lang="en">Browse Reddit from your terminal</Summary>
+        <Description xml:lang="en">RTV provides an interface to view and interact with reddit from your terminal. It&apos;s compatible with most terminal emulators on Linux.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>rtv</Name>
+        <Summary xml:lang="en">Browse Reddit from your terminal</Summary>
+        <Description xml:lang="en">RTV provides an interface to view and interact with reddit from your terminal. It&apos;s compatible with most terminal emulators on Linux.
+</Description>
+        <PartOf>network.news</PartOf>
+        <Files>
+            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/rtv-1.16.0-py2.7.egg-info/PKG-INFO</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/rtv-1.16.0-py2.7.egg-info/SOURCES.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/rtv-1.16.0-py2.7.egg-info/dependency_links.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/rtv-1.16.0-py2.7.egg-info/entry_points.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/rtv-1.16.0-py2.7.egg-info/requires.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/rtv-1.16.0-py2.7.egg-info/top_level.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/rtv/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/rtv/__init__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/rtv/__main__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/rtv/__main__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/rtv/__version__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/rtv/__version__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/rtv/clipboard.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/rtv/clipboard.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/rtv/config.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/rtv/config.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/rtv/content.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/rtv/content.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/rtv/docs.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/rtv/docs.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/rtv/exceptions.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/rtv/exceptions.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/rtv/mime_parsers.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/rtv/mime_parsers.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/rtv/oauth.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/rtv/oauth.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/rtv/objects.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/rtv/objects.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/rtv/packages/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/rtv/packages/__init__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/rtv/packages/praw/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/rtv/packages/praw/__init__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/rtv/packages/praw/decorator_helpers.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/rtv/packages/praw/decorator_helpers.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/rtv/packages/praw/decorators.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/rtv/packages/praw/decorators.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/rtv/packages/praw/errors.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/rtv/packages/praw/errors.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/rtv/packages/praw/handlers.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/rtv/packages/praw/handlers.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/rtv/packages/praw/helpers.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/rtv/packages/praw/helpers.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/rtv/packages/praw/internal.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/rtv/packages/praw/internal.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/rtv/packages/praw/multiprocess.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/rtv/packages/praw/multiprocess.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/rtv/packages/praw/objects.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/rtv/packages/praw/objects.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/rtv/packages/praw/praw.ini</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/rtv/packages/praw/settings.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/rtv/packages/praw/settings.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/rtv/page.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/rtv/page.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/rtv/submission_page.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/rtv/submission_page.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/rtv/subreddit_page.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/rtv/subreddit_page.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/rtv/subscription_page.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/rtv/subscription_page.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/rtv/templates/index.html</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/rtv/templates/mailcap</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/rtv/templates/rtv.cfg</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/rtv/terminal.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/rtv/terminal.pyc</Path>
+            <Path fileType="man">/usr/share/man</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2017-09-06</Date>
+            <Version>1.16.0</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Update>
+    </History>
+</PISI>

@@ -1,0 +1,21 @@
+name       : rtv
+version    : 1.16.0
+release    : 1
+source     :
+    - https://github.com/michael-lazar/rtv/archive/v1.16.0.tar.gz : 6ccb32fa9bc3e3ec6e32e72c0cbf6acc834b7dee65490d501253b4577269b53e
+license    : MIT
+component  : network.news
+summary    : Browse Reddit from your terminal
+description: |
+    RTV provides an interface to view and interact with reddit from your terminal. It's compatible with most terminal emulators on Linux.
+builddeps  :
+    - python-setuptools
+rundeps    :
+    - python-beautifulsoup4
+    - python-decorator
+    - python-kitchen
+    - python-mailcap-fix
+setup      : |
+    %python_setup
+install    : |
+    %python_install
