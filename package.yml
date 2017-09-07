@@ -1,8 +1,8 @@
 name       : rtv
-version    : 1.16.0
-release    : 1
+version    : 1.18.0
+release    : 2
 source     :
-    - https://github.com/michael-lazar/rtv/archive/v1.16.0.tar.gz : 6ccb32fa9bc3e3ec6e32e72c0cbf6acc834b7dee65490d501253b4577269b53e
+    - https://github.com/michael-lazar/rtv/archive/v1.18.0.tar.gz : 44e49253db01bcda5992b80804444c6e996092146c5176a7f44ca1a1f1abe815
 license    : MIT
 component  : network.news
 summary    : Browse Reddit from your terminal
