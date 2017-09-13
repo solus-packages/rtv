@@ -1,6 +1,6 @@
 name       : rtv
 version    : 1.18.0
-release    : 2
+release    : 3
 source     :
     - https://github.com/michael-lazar/rtv/archive/v1.18.0.tar.gz : 44e49253db01bcda5992b80804444c6e996092146c5176a7f44ca1a1f1abe815
 license    : MIT
@@ -15,6 +15,7 @@ rundeps    :
     - python-decorator
     - python-kitchen
     - python-mailcap-fix
+    - python-setuptools
 setup      : |
     %python_setup
 install    : |
